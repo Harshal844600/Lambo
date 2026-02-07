@@ -1,0 +1,28 @@
+
+> web@1.0.0 dev
+> next dev
+
+▲ Next.js 16.1.6 (Turbopack)
+- Local:         http://localhost:3000
+- Network:       http://10.74.208.251:3000
+
+✓ Starting...
+✓ Ready in 952ms
+ GET / 200 in 961ms (compile: 742ms, render: 219ms)
+ GET /noise.png 404 in 889ms (compile: 820ms, render: 69ms)
+✓ Compiled in 213ms
+✓ Compiled in 50ms
+ GET /noise.png 404 in 93ms (compile: 17ms, render: 77ms)
+✓ Compiled in 136ms
+ GET / 200 in 178ms (compile: 142ms, render: 35ms)
+ GET /noise.png 404 in 67ms (compile: 15ms, render: 52ms)
+ GET /noise.png 404 in 77ms (compile: 16ms, render: 61ms)
+ GET / 200 in 175ms (compile: 10ms, render: 165ms)
+ GET /noise.png 404 in 68ms (compile: 18ms, render: 50ms)
+✓ Compiled in 187ms
+ GET / 200 in 379ms (compile: 161ms, render: 218ms)
+ GET / 200 in 179ms (compile: 146ms, render: 33ms)
+ GET / 200 in 186ms (compile: 21ms, render: 166ms)
+ GET /noise.png 404 in 267ms (compile: 155ms, render: 112ms)
+ GET / 200 in 71ms (compile: 7ms, render: 64ms)
+ GET /noise.png 404 in 80ms (compile: 19ms, render: 61ms)

@@ -1,0 +1,21 @@
+npm error code ERESOLVE
+npm error ERESOLVE unable to resolve dependency tree
+npm error
+npm error While resolving: web@1.0.0
+npm error Found: eslint@8.57.1
+npm error node_modules/eslint
+npm error   eslint@"8" from the root project
+npm error
+npm error Could not resolve dependency:
+npm error peer eslint@">=9.0.0" from eslint-config-next@16.1.6
+npm error node_modules/eslint-config-next
+npm error   eslint-config-next@"16.1.6" from the root project
+npm error
+npm error Fix the upstream dependency conflict, or retry
+npm error this command with --force or --legacy-peer-deps
+npm error to accept an incorrect (and potentially broken) dependency resolution.
+npm error
+npm error
+npm error For a full report see:
+npm error C:\Users\DELL\AppData\Local\npm-cache\_logs\2026-01-31T19_49_53_893Z-eresolve-report.txt
+npm error A complete log of this run can be found in: C:\Users\DELL\AppData\Local\npm-cache\_logs\2026-01-31T19_49_53_893Z-debug-0.log

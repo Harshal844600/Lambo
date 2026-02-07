@@ -1,0 +1,31 @@
+
+> web@1.0.0 dev
+> next dev
+
+▲ Next.js 16.1.6 (Turbopack)
+- Local:         http://localhost:3000
+- Network:       http://10.74.208.251:3000
+
+✓ Starting...
+✓ Ready in 849ms
+⨯ ./app/globals.css:1:2
+Module not found: Can't resolve 'tailwindcss'
+[0m[31m[1m>[22m[39m[90m 1 |[39m [33m@[39m[36mimport[39m [32m"tailwindcss"[39m[33m;[39m
+ [90m   |[39m  [31m[1m^[22m[39m
+ [90m 2 |[39m
+ [90m 3 |[39m [33m@[39mtheme {
+ [90m 4 |[39m   [33m--[39mcolor[33m-[39mpagani[33m-[39mblack[33m:[39m [33m#[39m[35m1[39ma1a1a[33m;[39m[0m
+
+
+
+Import trace:
+  Client Component Browser:
+    ./app/globals.css [Client Component Browser]
+    ./app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ GET / 500 in 3.0s (compile: 2.9s, render: 142ms)
+✓ Compiled in 245ms
+ GET / 200 in 449ms (compile: 246ms, render: 203ms)

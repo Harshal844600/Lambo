@@ -1,0 +1,75 @@
+@import "tailwindcss";
+
+:root {
+  --color-lambo-black: #0a0a0a;
+  --color-lambo-yellow: #F5C211;
+  --color-lambo-accent: #FFD700;
+  --color-carbon-gray: #1f1f1f;
+}
+
+@theme {
+  --color-lambo-black: var(--color-lambo-black);
+  --color-lambo-yellow: var(--color-lambo-yellow);
+  --color-lambo-accent: var(--color-lambo-accent);
+  --color-carbon-gray: var(--color-carbon-gray);
+
+  --font-heading: var(--font-orbitron);
+  --font-body: var(--font-rajdhani);
+}
+
+@layer base {
+  body {
+    background-color: var(--color-lambo-black);
+    color: white;
+    font-family: var(--font-body);
+    overflow-x: hidden;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: var(--font-heading);
+    text-transform: uppercase;
+    font-style: italic;
+    /* Speed look */
+    letter-spacing: 0.05em;
+  }
+
+  ::selection {
+    background-color: var(--color-lambo-yellow);
+    color: black;
+  }
+}
+
+@layer utilities {
+  .text-glow {
+    text-shadow: 0 0 10px rgba(245, 194, 17, 0.5);
+  }
+
+  .clip-angle {
+    clip-path: polygon(10% 0, 100% 0, 100% 100%, 0 100%);
+  }
+
+  .clip-button {
+    clip-path: polygon(15% 0, 100% 0, 85% 100%, 0 100%);
+  }
+}
+
+@layer utilities {
+  .glass {
+    background: rgba(26, 26, 26, 0.7);
+    backdrop-filter: blur(10px);
+    border-bottom: 1px solid rgba(212, 175, 55, 0.2);
+  }
+
+  .hud-border {
+    border: 1px solid rgba(212, 175, 55, 0.3);
+  }
+
+  .text-shadow-gold {
+    text-shadow: 0 0 10px rgba(212, 175, 55, 0.5);
+  }
+}

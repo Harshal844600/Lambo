@@ -1,0 +1,1589 @@
+[00:00:01.822] Server  LOG     ✓ Ready in 1142ms
+[00:00:02.659] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:03.736] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<SegmentViewNode>} forbidden={undefined} ...>
+      <RedirectBoundary>
+        <RedirectErrorBoundary router={{...}}>
+          <InnerLayoutRouter url="/" tree={[...]} params={{}} cacheNode={{rsc:<Fragment>, ...}} segmentPath={[...]} ...>
+            <SegmentViewNode type="page" pagePath="page.tsx">
+              <SegmentTrieNode>
+              <ClientPageRoot Component={function Home} serverProvidedParams={{...}}>
+                <Home params={Promise} searchParams={Promise}>
+                  <main className="bg-lambo-b...">
+                    <Navbar>
+                    <SpeedLines>
+                      <div className="absolute i...">
+                        <motion.div className="absolute b..." style={{top:"88.52...", ...}} animate={{x:"200%"}} ...>
+                          <div
+                            className="absolute bg-white/10 h-[1px] w-full"
+                            style={{
++                             top: "88.52545384272804%"
+-                             top: "64.3188%"
++                             left: "-100%"
+-                             left: "-100%"
+                            }}
+                            ref={function useMotionRef.useCallback}
+                          >
+                        <motion.div className="absolute b..." style={{top:"35.52...", ...}} animate={{x:"200%"}} ...>
+                          <div
+                            className="absolute bg-white/10 h-[1px] w-full"
+                            style={{
++                             top: "35.52518527377736%"
+-                             top: "12.4504%"
++                             left: "-100%"
+-                             left: "-100%"
+                            }}
+                            ref={function useMotionRef.useCallback}
+                          >
+                        <motion.div className="absolute b..." style={{top:"74.16...", ...}} animate={{x:"200%"}} ...>
+                          <div
+                            className="absolute bg-white/10 h-[1px] w-full"
+                            style={{
++                             top: "74.16061079857376%"
+-                             top: "66.5562%"
++                             left: "-100%"
+-                             left: "-100%"
+                            }}
+                            ref={function useMotionRef.useCallback}
+                          >
+                        <motion.div className="absolute b..." style={{top:"73.69...", ...}} animate={{x:"200%"}} ...>
+                          <div
+                            className="absolute bg-white/10 h-[1px] w-full"
+                            style={{
++                             top: "73.69568837811386%"
+-                             top: "36.8753%"
++                             left: "-100%"
+-                             left: "-100%"
+                            }}
+                            ref={function useMotionRef.useCallback}
+                          >
+                        <motion.div className="absolute b..." style={{top:"38.58...", ...}} animate={{x:"200%"}} ...>
+                          <div
+                            className="absolute bg-white/10 h-[1px] w-full"
+                            style={{
++                             top: "38.587413448767705%"
+-                             top: "0.759916%"
++                             left: "-100%"
+-                             left: "-100%"
+                            }}
+                            ref={function useMotionRef.useCallback}
+                          >
+                        <motion.div className="absolute b..." style={{top:"71.66...", ...}} animate={{x:"200%"}} ...>
+                          <div
+                            className="absolute bg-white/10 h-[1px] w-full"
+                            style={{
++                             top: "71.66175419469837%"
+-                             top: "84.6513%"
++                             left: "-100%"
+-                             left: "-100%"
+                            }}
+                            ref={function useMotionRef.useCallback}
+                          >
+                        <motion.div className="absolute b..." style={{top:"54.00...", ...}} animate={{x:"200%"}} ...>
+                          <div
+                            className="absolute bg-white/10 h-[1px] w-full"
+                            style={{
++                             top: "54.00526267952341%"
+-                             top: "60.6034%"
++                             left: "-100%"
+-                             left: "-100%"
+                            }}
+                            ref={function useMotionRef.useCallback}
+                          >
+                        <motion.div className="absolute b..." style={{top:"29.62...", ...}} animate={{x:"200%"}} ...>
+                          <div
+                            className="absolute bg-white/10 h-[1px] w-full"
+                            style={{
++                             top: "29.621823908608768%"
+-                             top: "89.4189%"
++                             left: "-100%"
+-                             left: "-100%"
+                            }}
+                            ref={function useMotionRef.useCallback}
+                          >
+                        <motion.div className="absolute b..." style={{top:"32.86...", ...}} animate={{x:"200%"}} ...>
+                          <div
+                            className="absolute bg-white/10 h-[1px] w-full"
+                            style={{
++                             top: "32.86251024139341%"
+-                             top: "39.7478%"
++                             left: "-100%"
+-                             left: "-100%"
+                            }}
+                            ref={function useMotionRef.useCallback}
+                          >
+                        <motion.div className="absolute b..." style={{top:"10.12...", ...}} animate={{x:"200%"}} ...>
+                          <div
+                            className="absolute bg-white/10 h-[1px] w-full"
+                            style={{
++                             top: "10.124905528919259%"
+-                             top: "68.5622%"
++                             left: "-100%"
+-                             left: "-100%"
+                            }}
+                            ref={function useMotionRef.useCallback}
+                          >
+                        <motion.div className="absolute b..." style={{top:"98.05...", ...}} animate={{x:"200%"}} ...>
+                          <div
+                            className="absolute bg-white/10 h-[1px] w-full"
+                            style={{
++                             top: "98.05301828771331%"
+-                             top: "98.4015%"
++                             left: "-100%"
+-                             left: "-100%"
+                            }}
+                            ref={function useMotionRef.useCallback}
+                          >
+                        <motion.div className="absolute b..." style={{top:"99.09...", ...}} animate={{x:"200%"}} ...>
+                          <div
+                            className="absolute bg-white/10 h-[1px] w-full"
+                            style={{
++                             top: "99.09753250017803%"
+-                             top: "45.4439%"
++                             left: "-100%"
+-                             left: "-100%"
+                            }}
+                            ref={function useMotionRef.useCallback}
+                          >
+                        <motion.div className="absolute b..." style={{top:"92.24...", ...}} animate={{x:"200%"}} ...>
+                          <div
+                            className="absolute bg-white/10 h-[1px] w-full"
+                            style={{
++                             top: "92.24656642655164%"
+-                             top: "8.47876%"
++                             left: "-100%"
+-                             left: "-100%"
+                            }}
+                            ref={function useMotionRef.useCallback}
+                          >
+                        <motion.div className="absolute b..." style={{top:"38.24...", ...}} animate={{x:"200%"}} ...>
+                          <div
+                            className="absolute bg-white/10 h-[1px] w-full"
+                            style={{
++                             top: "38.2458134074076%"
+-                             top: "25.3657%"
++                             left: "-100%"
+-                             left: "-100%"
+                            }}
+                            ref={function useMotionRef.useCallback}
+                          >
+                        <motion.div className="absolute b..." style={{top:"36.10...", ...}} animate={{x:"200%"}} ...>
+                          <div
+                            className="absolute bg-white/10 h-[1px] w-full"
+                            style={{
++                             top: "36.10371716899697%"
+-                             top: "65.7631%"
++                             left: "-100%"
+-                             left: "-100%"
+                            }}
+                            ref={function useMotionRef.useCallback}
+                          >
+                        <motion.div className="absolute b..." style={{top:"46.45...", ...}} animate={{x:"200%"}} ...>
+                          <div
+                            className="absolute bg-white/10 h-[1px] w-full"
+                            style={{
++                             top: "46.45260307762413%"
+-                             top: "88.9646%"
++                             left: "-100%"
+-                             left: "-100%"
+                            }}
+                            ref={function useMotionRef.useCallback}
+                          >
+                        <motion.div className="absolute b..." style={{top:"43.74...", ...}} animate={{x:"200%"}} ...>
+                          <div
+                            className="absolute bg-white/10 h-[1px] w-full"
+                            style={{
++                             top: "43.7448896404374%"
+-                             top: "53.8833%"
++                             left: "-100%"
+-                             left: "-100%"
+                            }}
+                            ref={function useMotionRef.useCallback}
+                          >
+                        <motion.div className="absolute b..." style={{top:"33.27...", ...}} animate={{x:"200%"}} ...>
+                          <div
+                            className="absolute bg-white/10 h-[1px] w-full"
+                            style={{
++                             top: "33.27461691103111%"
+-                             top: "78.2916%"
++                             left: "-100%"
+-                             left: "-100%"
+                            }}
+                            ref={function useMotionRef.useCallback}
+                          >
+                        <motion.div className="absolute b..." style={{top:"60.20...", ...}} animate={{x:"200%"}} ...>
+                          <div
+                            className="absolute bg-white/10 h-[1px] w-full"
+                            style={{
++                             top: "60.200740502641025%"
+-                             top: "81.3986%"
++                             left: "-100%"
+-                             left: "-100%"
+                            }}
+                            ref={function useMotionRef.useCallback}
+                          >
+                        <motion.div className="absolute b..." style={{top:"0.902...", ...}} animate={{x:"200%"}} ...>
+                          <div
+                            className="absolute bg-white/10 h-[1px] w-full"
+                            style={{
++                             top: "0.9025239862935575%"
+-                             top: "85.2278%"
++                             left: "-100%"
+-                             left: "-100%"
+                            }}
+                            ref={function useMotionRef.useCallback}
+                          >
+                        ...
+                    ...
+            ...
+          ...
+
+[00:00:25.346] Browser WARN    Please ensure that the container has a non-static position, like 'relative', 'fixed', or 'absolute' to ensure scroll offset is calculated correctly.
+[00:02:07.180] Server  LOG     ✓ Compiled in 812ms
+[00:02:26.181] Server  LOG     ✓ Compiled in 92ms
+[00:02:28.238] Server  LOG     ✓ Compiled in 49ms
+[00:02:30.229] Server  LOG     ✓ Compiled in 37ms
+[00:06:07.629] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:06:07.815] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<SegmentViewNode>} forbidden={undefined} ...>
+      <RedirectBoundary>
+        <RedirectErrorBoundary router={{...}}>
+          <InnerLayoutRouter url="/" tree={[...]} params={{}} cacheNode={{rsc:<Fragment>, ...}} segmentPath={[...]} ...>
+            <SegmentViewNode type="page" pagePath="page.tsx">
+              <SegmentTrieNode>
+              <ClientPageRoot Component={function Home} serverProvidedParams={{...}}>
+                <Home params={Promise} searchParams={Promise}>
+                  <main className="bg-lambo-b...">
+                    <Navbar>
+                    <SpeedLines>
+                      <div className="absolute i...">
+                        <motion.div className="absolute b..." style={{top:"22.10...", ...}} animate={{x:"200%"}} ...>
+                          <div
+                            className="absolute bg-white/10 h-[1px] w-full"
+                            style={{
++                             top: "22.1033595528325%"
+-                             top: "95.7963%"
++                             left: "-100%"
+-                             left: "-100%"
++                             willChange: "transform"
++                             transform: "translateZ(0)"
+-                             transform: "translateZ(0px)"
+-                             will-change: "transform"
+                            }}
+                            ref={function useMotionRef.useCallback}
+                          >
+                        <motion.div className="absolute b..." style={{top:"53.34...", ...}} animate={{x:"200%"}} ...>
+                          <div
+                            className="absolute bg-white/10 h-[1px] w-full"
+                            style={{
++                             top: "53.345741139110395%"
+-                             top: "85.0703%"
++                             left: "-100%"
+-                             left: "-100%"
++                             willChange: "transform"
++                             transform: "translateZ(0)"
+-                             transform: "translateZ(0px)"
+-                             will-change: "transform"
+                            }}
+                            ref={function useMotionRef.useCallback}
+                          >
+                        <motion.div className="absolute b..." style={{top:"40.94...", ...}} animate={{x:"200%"}} ...>
+                          <div
+                            className="absolute bg-white/10 h-[1px] w-full"
+                            style={{
++                             top: "40.94816522496223%"
+-                             top: "9.8739%"
++                             left: "-100%"
+-                             left: "-100%"
++                             willChange: "transform"
++                             transform: "translateZ(0)"
+-                             transform: "translateZ(0px)"
+-                             will-change: "transform"
+                            }}
+                            ref={function useMotionRef.useCallback}
+                          >
+                        <motion.div className="absolute b..." style={{top:"25.00...", ...}} animate={{x:"200%"}} ...>
+                          <div
+                            className="absolute bg-white/10 h-[1px] w-full"
+                            style={{
++                             top: "25.00638195444814%"
+-                             top: "55.2126%"
++                             left: "-100%"
+-                             left: "-100%"
++                             willChange: "transform"
++                             transform: "translateZ(0)"
+-                             transform: "translateZ(0px)"
+-                             will-change: "transform"
+                            }}
+                            ref={function useMotionRef.useCallback}
+                          >
+                        <motion.div className="absolute b..." style={{top:"37.61...", ...}} animate={{x:"200%"}} ...>
+                          <div
+                            className="absolute bg-white/10 h-[1px] w-full"
+                            style={{
++                             top: "37.61528130252662%"
+-                             top: "34.1933%"
++                             left: "-100%"
+-                             left: "-100%"
++                             willChange: "transform"
++                             transform: "translateZ(0)"
+-                             transform: "translateZ(0px)"
+-                             will-change: "transform"
+                            }}
+                            ref={function useMotionRef.useCallback}
+                          >
+                        <motion.div className="absolute b..." style={{top:"27.67...", ...}} animate={{x:"200%"}} ...>
+                          <div
+                            className="absolute bg-white/10 h-[1px] w-full"
+                            style={{
++                             top: "27.67822680872899%"
+-                             top: "63.7765%"
++                             left: "-100%"
+-                             left: "-100%"
++                             willChange: "transform"
++                             transform: "translateZ(0)"
+-                             transform: "translateZ(0px)"
+-                             will-change: "transform"
+                            }}
+                            ref={function useMotionRef.useCallback}
+                          >
+                        <motion.div className="absolute b..." style={{top:"60.07...", ...}} animate={{x:"200%"}} ...>
+                          <div
+                            className="absolute bg-white/10 h-[1px] w-full"
+                            style={{
++                             top: "60.07254913040849%"
+-                             top: "55.1328%"
++                             left: "-100%"
+-                             left: "-100%"
++                             willChange: "transform"
++                             transform: "translateZ(0)"
+-                             transform: "translateZ(0px)"
+-                             will-change: "transform"
+                            }}
+                            ref={function useMotionRef.useCallback}
+                          >
+                        <motion.div className="absolute b..." style={{top:"60.80...", ...}} animate={{x:"200%"}} ...>
+                          <div
+                            className="absolute bg-white/10 h-[1px] w-full"
+                            style={{
++                             top: "60.80724188962261%"
+-                             top: "11.6352%"
++                             left: "-100%"
+-                             left: "-100%"
++                             willChange: "transform"
++                             transform: "translateZ(0)"
+-                             transform: "translateZ(0px)"
+-                             will-change: "transform"
+                            }}
+                            ref={function useMotionRef.useCallback}
+                          >
+                        <motion.div className="absolute b..." style={{top:"54.20...", ...}} animate={{x:"200%"}} ...>
+                          <div
+                            className="absolute bg-white/10 h-[1px] w-full"
+                            style={{
++                             top: "54.20516377144057%"
+-                             top: "26.5164%"
++                             left: "-100%"
+-                             left: "-100%"
++                             willChange: "transform"
++                             transform: "translateZ(0)"
+-                             transform: "translateZ(0px)"
+-                             will-change: "transform"
+                            }}
+                            ref={function useMotionRef.useCallback}
+                          >
+                        <motion.div className="absolute b..." style={{top:"16.15...", ...}} animate={{x:"200%"}} ...>
+                          <div
+                            className="absolute bg-white/10 h-[1px] w-full"
+                            style={{
++                             top: "16.150693426455177%"
+-                             top: "49.5508%"
++                             left: "-100%"
+-                             left: "-100%"
++                             willChange: "transform"
++                             transform: "translateZ(0)"
+-                             transform: "translateZ(0px)"
+-                             will-change: "transform"
+                            }}
+                            ref={function useMotionRef.useCallback}
+                          >
+                        <motion.div className="absolute b..." style={{top:"38.43...", ...}} animate={{x:"200%"}} ...>
+                          <div
+                            className="absolute bg-white/10 h-[1px] w-full"
+                            style={{
++                             top: "38.43804474667946%"
+-                             top: "4.00287%"
++                             left: "-100%"
+-                             left: "-100%"
++                             willChange: "transform"
++                             transform: "translateZ(0)"
+-                             transform: "translateZ(0px)"
+-                             will-change: "transform"
+                            }}
+                            ref={function useMotionRef.useCallback}
+                          >
+                        <motion.div className="absolute b..." style={{top:"24.23...", ...}} animate={{x:"200%"}} ...>
+                          <div
+                            className="absolute bg-white/10 h-[1px] w-full"
+                            style={{
++                             top: "24.23556740328593%"
+-                             top: "33.3194%"
++                             left: "-100%"
+-                             left: "-100%"
++                             willChange: "transform"
++                             transform: "translateZ(0)"
+-                             transform: "translateZ(0px)"
+-                             will-change: "transform"
+                            }}
+                            ref={function useMotionRef.useCallback}
+                          >
+                        <motion.div className="absolute b..." style={{top:"71.19...", ...}} animate={{x:"200%"}} ...>
+                          <div
+                            className="absolute bg-white/10 h-[1px] w-full"
+                            style={{
++                             top: "71.19380639235501%"
+-                             top: "48.6541%"
++                             left: "-100%"
+-                             left: "-100%"
++                             willChange: "transform"
++                             transform: "translateZ(0)"
+-                             transform: "translateZ(0px)"
+-                             will-change: "transform"
+                            }}
+                            ref={function useMotionRef.useCallback}
+                          >
+                        <motion.div className="absolute b..." style={{top:"44.59...", ...}} animate={{x:"200%"}} ...>
+                          <div
+                            className="absolute bg-white/10 h-[1px] w-full"
+                            style={{
++                             top: "44.59015663894144%"
+-                             top: "51.2362%"
++                             left: "-100%"
+-                             left: "-100%"
++                             willChange: "transform"
++                             transform: "translateZ(0)"
+-                             transform: "translateZ(0px)"
+-                             will-change: "transform"
+                            }}
+                            ref={function useMotionRef.useCallback}
+                          >
+                        <motion.div className="absolute b..." style={{top:"45.59...", ...}} animate={{x:"200%"}} ...>
+                          <div
+                            className="absolute bg-white/10 h-[1px] w-full"
+                            style={{
++                             top: "45.592741073220196%"
+-                             top: "12.648%"
++                             left: "-100%"
+-                             left: "-100%"
++                             willChange: "transform"
++                             transform: "translateZ(0)"
+-                             transform: "translateZ(0px)"
+-                             will-change: "transform"
+                            }}
+                            ref={function useMotionRef.useCallback}
+                          >
+                        <motion.div className="absolute b..." style={{top:"78.54...", ...}} animate={{x:"200%"}} ...>
+                          <div
+                            className="absolute bg-white/10 h-[1px] w-full"
+                            style={{
++                             top: "78.54363492216297%"
+-                             top: "10.2705%"
++                             left: "-100%"
+-                             left: "-100%"
++                             willChange: "transform"
++                             transform: "translateZ(0)"
+-                             transform: "translateZ(0px)"
+-                             will-change: "transform"
+                            }}
+                            ref={function useMotionRef.useCallback}
+                          >
+                        <motion.div className="absolute b..." style={{top:"35.91...", ...}} animate={{x:"200%"}} ...>
+                          <div
+                            className="absolute bg-white/10 h-[1px] w-full"
+                            style={{
++                             top: "35.91393883527309%"
+-                             top: "88.0798%"
++                             left: "-100%"
+-                             left: "-100%"
++                             willChange: "transform"
++                             transform: "translateZ(0)"
+-                             transform: "translateZ(0px)"
+-                             will-change: "transform"
+                            }}
+                            ref={function useMotionRef.useCallback}
+                          >
+                        <motion.div className="absolute b..." style={{top:"13.62...", ...}} animate={{x:"200%"}} ...>
+                          <div
+                            className="absolute bg-white/10 h-[1px] w-full"
+                            style={{
++                             top: "13.623360358360149%"
+-                             top: "69.822%"
++                             left: "-100%"
+-                             left: "-100%"
++                             willChange: "transform"
++                             transform: "translateZ(0)"
+-                             transform: "translateZ(0px)"
+-                             will-change: "transform"
+                            }}
+                            ref={function useMotionRef.useCallback}
+                          >
+                        <motion.div className="absolute b..." style={{top:"6.252...", ...}} animate={{x:"200%"}} ...>
+                          <div
+                            className="absolute bg-white/10 h-[1px] w-full"
+                            style={{
++                             top: "6.2523437654014575%"
+-                             top: "52.0774%"
++                             left: "-100%"
+-                             left: "-100%"
++                             willChange: "transform"
++                             transform: "translateZ(0)"
+-                             transform: "translateZ(0px)"
+-                             will-change: "transform"
+                            }}
+                            ref={function useMotionRef.useCallback}
+                          >
+                        <motion.div className="absolute b..." style={{top:"74.66...", ...}} animate={{x:"200%"}} ...>
+                          <div
+                            className="absolute bg-white/10 h-[1px] w-full"
+                            style={{
++                             top: "74.66173939794119%"
+-                             top: "3.94984%"
++                             left: "-100%"
+-                             left: "-100%"
++                             willChange: "transform"
++                             transform: "translateZ(0)"
+-                             transform: "translateZ(0px)"
+-                             will-change: "transform"
+                            }}
+                            ref={function useMotionRef.useCallback}
+                          >
+                        ...
+                    ...
+            ...
+          ...
+
+[00:06:07.815] Browser WARN    Please ensure that the container has a non-static position, like 'relative', 'fixed', or 'absolute' to ensure scroll offset is calculated correctly.
+[00:09:00.190] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:09:00.382] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<SegmentViewNode>} forbidden={undefined} ...>
+      <RedirectBoundary>
+        <RedirectErrorBoundary router={{...}}>
+          <InnerLayoutRouter url="/" tree={[...]} params={{}} cacheNode={{rsc:<Fragment>, ...}} segmentPath={[...]} ...>
+            <SegmentViewNode type="page" pagePath="page.tsx">
+              <SegmentTrieNode>
+              <ClientPageRoot Component={function Home} serverProvidedParams={{...}}>
+                <Home params={Promise} searchParams={Promise}>
+                  <main className="bg-lambo-b...">
+                    <Navbar>
+                    <SpeedLines>
+                      <div className="absolute i...">
+                        <motion.div className="absolute b..." style={{top:"68.56...", ...}} animate={{x:"200%"}} ...>
+                          <div
+                            className="absolute bg-white/10 h-[1px] w-full"
+                            style={{
++                             top: "68.56074307424834%"
+-                             top: "91.7851%"
++                             left: "-100%"
+-                             left: "-100%"
++                             willChange: "transform"
++                             transform: "translateZ(0)"
+-                             transform: "translateZ(0px)"
+-                             will-change: "transform"
+                            }}
+                            ref={function useMotionRef.useCallback}
+                          >
+                        <motion.div className="absolute b..." style={{top:"46.86...", ...}} animate={{x:"200%"}} ...>
+                          <div
+                            className="absolute bg-white/10 h-[1px] w-full"
+                            style={{
++                             top: "46.86358502452804%"
+-                             top: "15.4164%"
++                             left: "-100%"
+-                             left: "-100%"
++                             willChange: "transform"
++                             transform: "translateZ(0)"
+-                             transform: "translateZ(0px)"
+-                             will-change: "transform"
+                            }}
+                            ref={function useMotionRef.useCallback}
+                          >
+                        <motion.div className="absolute b..." style={{top:"27.50...", ...}} animate={{x:"200%"}} ...>
+                          <div
+                            className="absolute bg-white/10 h-[1px] w-full"
+                            style={{
++                             top: "27.508102683460656%"
+-                             top: "38.7479%"
++                             left: "-100%"
+-                             left: "-100%"
++                             willChange: "transform"
++                             transform: "translateZ(0)"
+-                             transform: "translateZ(0px)"
+-                             will-change: "transform"
+                            }}
+                            ref={function useMotionRef.useCallback}
+                          >
+                        <motion.div className="absolute b..." style={{top:"6.753...", ...}} animate={{x:"200%"}} ...>
+                          <div
+                            className="absolute bg-white/10 h-[1px] w-full"
+                            style={{
++                             top: "6.753923250758653%"
+-                             top: "47.5367%"
++                             left: "-100%"
+-                             left: "-100%"
++                             willChange: "transform"
++                             transform: "translateZ(0)"
+-                             transform: "translateZ(0px)"
+-                             will-change: "transform"
+                            }}
+                            ref={function useMotionRef.useCallback}
+                          >
+                        <motion.div className="absolute b..." style={{top:"42.92...", ...}} animate={{x:"200%"}} ...>
+                          <div
+                            className="absolute bg-white/10 h-[1px] w-full"
+                            style={{
++                             top: "42.92866755056001%"
+-                             top: "55.1355%"
++                             left: "-100%"
+-                             left: "-100%"
++                             willChange: "transform"
++                             transform: "translateZ(0)"
+-                             transform: "translateZ(0px)"
+-                             will-change: "transform"
+                            }}
+                            ref={function useMotionRef.useCallback}
+                          >
+                        <motion.div className="absolute b..." style={{top:"99.59...", ...}} animate={{x:"200%"}} ...>
+                          <div
+                            className="absolute bg-white/10 h-[1px] w-full"
+                            style={{
++                             top: "99.59707046922765%"
+-                             top: "52.1338%"
++                             left: "-100%"
+-                             left: "-100%"
++                             willChange: "transform"
++                             transform: "translateZ(0)"
+-                             transform: "translateZ(0px)"
+-                             will-change: "transform"
+                            }}
+                            ref={function useMotionRef.useCallback}
+                          >
+                        <motion.div className="absolute b..." style={{top:"48.81...", ...}} animate={{x:"200%"}} ...>
+                          <div
+                            className="absolute bg-white/10 h-[1px] w-full"
+                            style={{
++                             top: "48.818588643752136%"
+-                             top: "44.122%"
++                             left: "-100%"
+-                             left: "-100%"
++                             willChange: "transform"
++                             transform: "translateZ(0)"
+-                             transform: "translateZ(0px)"
+-                             will-change: "transform"
+                            }}
+                            ref={function useMotionRef.useCallback}
+                          >
+                        <motion.div className="absolute b..." style={{top:"28.90...", ...}} animate={{x:"200%"}} ...>
+                          <div
+                            className="absolute bg-white/10 h-[1px] w-full"
+                            style={{
++                             top: "28.90663582243954%"
+-                             top: "28.83%"
++                             left: "-100%"
+-                             left: "-100%"
++                             willChange: "transform"
++                             transform: "translateZ(0)"
+-                             transform: "translateZ(0px)"
+-                             will-change: "transform"
+                            }}
+                            ref={function useMotionRef.useCallback}
+                          >
+                        <motion.div className="absolute b..." style={{top:"92.77...", ...}} animate={{x:"200%"}} ...>
+                          <div
+                            className="absolute bg-white/10 h-[1px] w-full"
+                            style={{
++                             top: "92.7785911612189%"
+-                             top: "50.3655%"
++                             left: "-100%"
+-                             left: "-100%"
++                             willChange: "transform"
++                             transform: "translateZ(0)"
+-                             transform: "translateZ(0px)"
+-                             will-change: "transform"
+                            }}
+                            ref={function useMotionRef.useCallback}
+                          >
+                        <motion.div className="absolute b..." style={{top:"51.63...", ...}} animate={{x:"200%"}} ...>
+                          <div
+                            className="absolute bg-white/10 h-[1px] w-full"
+                            style={{
++                             top: "51.630696318123015%"
+-                             top: "78.0534%"
++                             left: "-100%"
+-                             left: "-100%"
++                             willChange: "transform"
++                             transform: "translateZ(0)"
+-                             transform: "translateZ(0px)"
+-                             will-change: "transform"
+                            }}
+                            ref={function useMotionRef.useCallback}
+                          >
+                        <motion.div className="absolute b..." style={{top:"46.13...", ...}} animate={{x:"200%"}} ...>
+                          <div
+                            className="absolute bg-white/10 h-[1px] w-full"
+                            style={{
++                             top: "46.133964139193864%"
+-                             top: "40.7575%"
++                             left: "-100%"
+-                             left: "-100%"
++                             willChange: "transform"
++                             transform: "translateZ(0)"
+-                             transform: "translateZ(0px)"
+-                             will-change: "transform"
+                            }}
+                            ref={function useMotionRef.useCallback}
+                          >
+                        <motion.div className="absolute b..." style={{top:"30.20...", ...}} animate={{x:"200%"}} ...>
+                          <div
+                            className="absolute bg-white/10 h-[1px] w-full"
+                            style={{
++                             top: "30.2071113179615%"
+-                             top: "29.4902%"
++                             left: "-100%"
+-                             left: "-100%"
++                             willChange: "transform"
++                             transform: "translateZ(0)"
+-                             transform: "translateZ(0px)"
+-                             will-change: "transform"
+                            }}
+                            ref={function useMotionRef.useCallback}
+                          >
+                        <motion.div className="absolute b..." style={{top:"20.02...", ...}} animate={{x:"200%"}} ...>
+                          <div
+                            className="absolute bg-white/10 h-[1px] w-full"
+                            style={{
++                             top: "20.024166365655592%"
+-                             top: "35.9154%"
++                             left: "-100%"
+-                             left: "-100%"
++                             willChange: "transform"
++                             transform: "translateZ(0)"
+-                             transform: "translateZ(0px)"
+-                             will-change: "transform"
+                            }}
+                            ref={function useMotionRef.useCallback}
+                          >
+                        <motion.div className="absolute b..." style={{top:"8.303...", ...}} animate={{x:"200%"}} ...>
+                          <div
+                            className="absolute bg-white/10 h-[1px] w-full"
+                            style={{
++                             top: "8.303190206509425%"
+-                             top: "47.917%"
++                             left: "-100%"
+-                             left: "-100%"
++                             willChange: "transform"
++                             transform: "translateZ(0)"
+-                             transform: "translateZ(0px)"
+-                             will-change: "transform"
+                            }}
+                            ref={function useMotionRef.useCallback}
+                          >
+                        <motion.div className="absolute b..." style={{top:"49.78...", ...}} animate={{x:"200%"}} ...>
+                          <div
+                            className="absolute bg-white/10 h-[1px] w-full"
+                            style={{
++                             top: "49.785925789078924%"
+-                             top: "25.5388%"
++                             left: "-100%"
+-                             left: "-100%"
++                             willChange: "transform"
++                             transform: "translateZ(0)"
+-                             transform: "translateZ(0px)"
+-                             will-change: "transform"
+                            }}
+                            ref={function useMotionRef.useCallback}
+                          >
+                        <motion.div className="absolute b..." style={{top:"83.76...", ...}} animate={{x:"200%"}} ...>
+                          <div
+                            className="absolute bg-white/10 h-[1px] w-full"
+                            style={{
++                             top: "83.76071025118105%"
+-                             top: "32.7242%"
++                             left: "-100%"
+-                             left: "-100%"
++                             willChange: "transform"
++                             transform: "translateZ(0)"
+-                             transform: "translateZ(0px)"
+-                             will-change: "transform"
+                            }}
+                            ref={function useMotionRef.useCallback}
+                          >
+                        <motion.div className="absolute b..." style={{top:"86.53...", ...}} animate={{x:"200%"}} ...>
+                          <div
+                            className="absolute bg-white/10 h-[1px] w-full"
+                            style={{
++                             top: "86.5377126902829%"
+-                             top: "1.81154%"
++                             left: "-100%"
+-                             left: "-100%"
++                             willChange: "transform"
++                             transform: "translateZ(0)"
+-                             transform: "translateZ(0px)"
+-                             will-change: "transform"
+                            }}
+                            ref={function useMotionRef.useCallback}
+                          >
+                        <motion.div className="absolute b..." style={{top:"44.79...", ...}} animate={{x:"200%"}} ...>
+                          <div
+                            className="absolute bg-white/10 h-[1px] w-full"
+                            style={{
++                             top: "44.79627138796827%"
+-                             top: "79.0278%"
++                             left: "-100%"
+-                             left: "-100%"
++                             willChange: "transform"
++                             transform: "translateZ(0)"
+-                             transform: "translateZ(0px)"
+-                             will-change: "transform"
+                            }}
+                            ref={function useMotionRef.useCallback}
+                          >
+                        <motion.div className="absolute b..." style={{top:"28.34...", ...}} animate={{x:"200%"}} ...>
+                          <div
+                            className="absolute bg-white/10 h-[1px] w-full"
+                            style={{
++                             top: "28.347208499931043%"
+-                             top: "76.668%"
++                             left: "-100%"
+-                             left: "-100%"
++                             willChange: "transform"
++                             transform: "translateZ(0)"
+-                             transform: "translateZ(0px)"
+-                             will-change: "transform"
+                            }}
+                            ref={function useMotionRef.useCallback}
+                          >
+                        <motion.div className="absolute b..." style={{top:"80.29...", ...}} animate={{x:"200%"}} ...>
+                          <div
+                            className="absolute bg-white/10 h-[1px] w-full"
+                            style={{
++                             top: "80.29481542514468%"
+-                             top: "46.6806%"
++                             left: "-100%"
+-                             left: "-100%"
++                             willChange: "transform"
++                             transform: "translateZ(0)"
+-                             transform: "translateZ(0px)"
+-                             will-change: "transform"
+                            }}
+                            ref={function useMotionRef.useCallback}
+                          >
+                        ...
+                    ...
+            ...
+          ...
+
+[00:09:00.382] Browser WARN    Please ensure that the container has a non-static position, like 'relative', 'fixed', or 'absolute' to ensure scroll offset is calculated correctly.
+[00:14:15.954] Server  LOG     ✓ Compiled in 136ms
+[00:15:25.269] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:15:25.472] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<SegmentViewNode>} forbidden={undefined} ...>
+      <RedirectBoundary>
+        <RedirectErrorBoundary router={{...}}>
+          <InnerLayoutRouter url="/" tree={[...]} params={{}} cacheNode={{rsc:<Fragment>, ...}} segmentPath={[...]} ...>
+            <SegmentViewNode type="page" pagePath="page.tsx">
+              <SegmentTrieNode>
+              <ClientPageRoot Component={function Home} serverProvidedParams={{...}}>
+                <Home params={Promise} searchParams={Promise}>
+                  <main className="bg-lambo-b...">
+                    <Navbar>
+                    <SpeedLines>
+                      <div className="absolute i...">
+                        <motion.div className="absolute b..." style={{top:"62.64...", ...}} animate={{x:"200%"}} ...>
+                          <div
+                            className="absolute bg-white/10 h-[1px] w-full"
+                            style={{
++                             top: "62.641480042068366%"
+-                             top: "8.60201%"
++                             left: "-100%"
+-                             left: "-100%"
++                             willChange: "transform"
++                             transform: "translateZ(0)"
+-                             transform: "translateZ(0px)"
+-                             will-change: "transform"
+                            }}
+                            ref={function useMotionRef.useCallback}
+                          >
+                        <motion.div className="absolute b..." style={{top:"68.84...", ...}} animate={{x:"200%"}} ...>
+                          <div
+                            className="absolute bg-white/10 h-[1px] w-full"
+                            style={{
++                             top: "68.84607160167216%"
+-                             top: "40.4955%"
++                             left: "-100%"
+-                             left: "-100%"
++                             willChange: "transform"
++                             transform: "translateZ(0)"
+-                             transform: "translateZ(0px)"
+-                             will-change: "transform"
+                            }}
+                            ref={function useMotionRef.useCallback}
+                          >
+                        <motion.div className="absolute b..." style={{top:"42.86...", ...}} animate={{x:"200%"}} ...>
+                          <div
+                            className="absolute bg-white/10 h-[1px] w-full"
+                            style={{
++                             top: "42.86500160707737%"
+-                             top: "69.649%"
++                             left: "-100%"
+-                             left: "-100%"
++                             willChange: "transform"
++                             transform: "translateZ(0)"
+-                             transform: "translateZ(0px)"
+-                             will-change: "transform"
+                            }}
+                            ref={function useMotionRef.useCallback}
+                          >
+                        <motion.div className="absolute b..." style={{top:"74.43...", ...}} animate={{x:"200%"}} ...>
+                          <div
+                            className="absolute bg-white/10 h-[1px] w-full"
+                            style={{
++                             top: "74.43757152362062%"
+-                             top: "16.0793%"
++                             left: "-100%"
+-                             left: "-100%"
++                             willChange: "transform"
++                             transform: "translateZ(0)"
+-                             transform: "translateZ(0px)"
+-                             will-change: "transform"
+                            }}
+                            ref={function useMotionRef.useCallback}
+                          >
+                        <motion.div className="absolute b..." style={{top:"45.77...", ...}} animate={{x:"200%"}} ...>
+                          <div
+                            className="absolute bg-white/10 h-[1px] w-full"
+                            style={{
++                             top: "45.7702781903221%"
+-                             top: "48.732%"
++                             left: "-100%"
+-                             left: "-100%"
++                             willChange: "transform"
++                             transform: "translateZ(0)"
+-                             transform: "translateZ(0px)"
+-                             will-change: "transform"
+                            }}
+                            ref={function useMotionRef.useCallback}
+                          >
+                        <motion.div className="absolute b..." style={{top:"99.48...", ...}} animate={{x:"200%"}} ...>
+                          <div
+                            className="absolute bg-white/10 h-[1px] w-full"
+                            style={{
++                             top: "99.48277096355784%"
+-                             top: "39.3563%"
++                             left: "-100%"
+-                             left: "-100%"
++                             willChange: "transform"
++                             transform: "translateZ(0)"
+-                             transform: "translateZ(0px)"
+-                             will-change: "transform"
+                            }}
+                            ref={function useMotionRef.useCallback}
+                          >
+                        <motion.div className="absolute b..." style={{top:"3.783...", ...}} animate={{x:"200%"}} ...>
+                          <div
+                            className="absolute bg-white/10 h-[1px] w-full"
+                            style={{
++                             top: "3.78376167745208%"
+-                             top: "88.6221%"
++                             left: "-100%"
+-                             left: "-100%"
++                             willChange: "transform"
++                             transform: "translateZ(0)"
+-                             transform: "translateZ(0px)"
+-                             will-change: "transform"
+                            }}
+                            ref={function useMotionRef.useCallback}
+                          >
+                        <motion.div className="absolute b..." style={{top:"46.55...", ...}} animate={{x:"200%"}} ...>
+                          <div
+                            className="absolute bg-white/10 h-[1px] w-full"
+                            style={{
++                             top: "46.55166852892818%"
+-                             top: "0.0263089%"
++                             left: "-100%"
+-                             left: "-100%"
++                             willChange: "transform"
++                             transform: "translateZ(0)"
+-                             transform: "translateZ(0px)"
+-                             will-change: "transform"
+                            }}
+                            ref={function useMotionRef.useCallback}
+                          >
+                        <motion.div className="absolute b..." style={{top:"70.74...", ...}} animate={{x:"200%"}} ...>
+                          <div
+                            className="absolute bg-white/10 h-[1px] w-full"
+                            style={{
++                             top: "70.7446259245175%"
+-                             top: "54.9804%"
++                             left: "-100%"
+-                             left: "-100%"
++                             willChange: "transform"
++                             transform: "translateZ(0)"
+-                             transform: "translateZ(0px)"
+-                             will-change: "transform"
+                            }}
+                            ref={function useMotionRef.useCallback}
+                          >
+                        <motion.div className="absolute b..." style={{top:"37.15...", ...}} animate={{x:"200%"}} ...>
+                          <div
+                            className="absolute bg-white/10 h-[1px] w-full"
+                            style={{
++                             top: "37.1550014232096%"
+-                             top: "96.8257%"
++                             left: "-100%"
+-                             left: "-100%"
++                             willChange: "transform"
++                             transform: "translateZ(0)"
+-                             transform: "translateZ(0px)"
+-                             will-change: "transform"
+                            }}
+                            ref={function useMotionRef.useCallback}
+                          >
+                        <motion.div className="absolute b..." style={{top:"17.61...", ...}} animate={{x:"200%"}} ...>
+                          <div
+                            className="absolute bg-white/10 h-[1px] w-full"
+                            style={{
++                             top: "17.618889467144637%"
+-                             top: "2.4792%"
++                             left: "-100%"
+-                             left: "-100%"
++                             willChange: "transform"
++                             transform: "translateZ(0)"
+-                             transform: "translateZ(0px)"
+-                             will-change: "transform"
+                            }}
+                            ref={function useMotionRef.useCallback}
+                          >
+                        <motion.div className="absolute b..." style={{top:"23.50...", ...}} animate={{x:"200%"}} ...>
+                          <div
+                            className="absolute bg-white/10 h-[1px] w-full"
+                            style={{
++                             top: "23.50078102862353%"
+-                             top: "59.9008%"
++                             left: "-100%"
+-                             left: "-100%"
++                             willChange: "transform"
++                             transform: "translateZ(0)"
+-                             transform: "translateZ(0px)"
+-                             will-change: "transform"
+                            }}
+                            ref={function useMotionRef.useCallback}
+                          >
+                        <motion.div className="absolute b..." style={{top:"81.77...", ...}} animate={{x:"200%"}} ...>
+                          <div
+                            className="absolute bg-white/10 h-[1px] w-full"
+                            style={{
++                             top: "81.77278229507233%"
+-                             top: "53.8632%"
++                             left: "-100%"
+-                             left: "-100%"
++                             willChange: "transform"
++                             transform: "translateZ(0)"
+-                             transform: "translateZ(0px)"
+-                             will-change: "transform"
+                            }}
+                            ref={function useMotionRef.useCallback}
+                          >
+                        <motion.div className="absolute b..." style={{top:"58.62...", ...}} animate={{x:"200%"}} ...>
+                          <div
+                            className="absolute bg-white/10 h-[1px] w-full"
+                            style={{
++                             top: "58.624594684407015%"
+-                             top: "31.9187%"
++                             left: "-100%"
+-                             left: "-100%"
++                             willChange: "transform"
++                             transform: "translateZ(0)"
+-                             transform: "translateZ(0px)"
+-                             will-change: "transform"
+                            }}
+                            ref={function useMotionRef.useCallback}
+                          >
+                        <motion.div className="absolute b..." style={{top:"0.178...", ...}} animate={{x:"200%"}} ...>
+                          <div
+                            className="absolute bg-white/10 h-[1px] w-full"
+                            style={{
++                             top: "0.1789550513665028%"
+-                             top: "17.9867%"
++                             left: "-100%"
+-                             left: "-100%"
++                             willChange: "transform"
++                             transform: "translateZ(0)"
+-                             transform: "translateZ(0px)"
+-                             will-change: "transform"
+                            }}
+                            ref={function useMotionRef.useCallback}
+                          >
+                        <motion.div className="absolute b..." style={{top:"29.39...", ...}} animate={{x:"200%"}} ...>
+                          <div
+                            className="absolute bg-white/10 h-[1px] w-full"
+                            style={{
++                             top: "29.3907416074755%"
+-                             top: "13.4143%"
++                             left: "-100%"
+-                             left: "-100%"
++                             willChange: "transform"
++                             transform: "translateZ(0)"
+-                             transform: "translateZ(0px)"
+-                             will-change: "transform"
+                            }}
+                            ref={function useMotionRef.useCallback}
+                          >
+                        <motion.div className="absolute b..." style={{top:"19.55...", ...}} animate={{x:"200%"}} ...>
+                          <div
+                            className="absolute bg-white/10 h-[1px] w-full"
+                            style={{
++                             top: "19.55933655918659%"
+-                             top: "27.1573%"
++                             left: "-100%"
+-                             left: "-100%"
++                             willChange: "transform"
++                             transform: "translateZ(0)"
+-                             transform: "translateZ(0px)"
+-                             will-change: "transform"
+                            }}
+                            ref={function useMotionRef.useCallback}
+                          >
+                        <motion.div className="absolute b..." style={{top:"26.13...", ...}} animate={{x:"200%"}} ...>
+                          <div
+                            className="absolute bg-white/10 h-[1px] w-full"
+                            style={{
++                             top: "26.131482576199303%"
+-                             top: "68.4599%"
++                             left: "-100%"
+-                             left: "-100%"
++                             willChange: "transform"
++                             transform: "translateZ(0)"
+-                             transform: "translateZ(0px)"
+-                             will-change: "transform"
+                            }}
+                            ref={function useMotionRef.useCallback}
+                          >
+                        <motion.div className="absolute b..." style={{top:"86.47...", ...}} animate={{x:"200%"}} ...>
+                          <div
+                            className="absolute bg-white/10 h-[1px] w-full"
+                            style={{
++                             top: "86.47234543863536%"
+-                             top: "62.1572%"
++                             left: "-100%"
+-                             left: "-100%"
++                             willChange: "transform"
++                             transform: "translateZ(0)"
+-                             transform: "translateZ(0px)"
+-                             will-change: "transform"
+                            }}
+                            ref={function useMotionRef.useCallback}
+                          >
+                        <motion.div className="absolute b..." style={{top:"90.55...", ...}} animate={{x:"200%"}} ...>
+                          <div
+                            className="absolute bg-white/10 h-[1px] w-full"
+                            style={{
++                             top: "90.55216688318612%"
+-                             top: "58.4055%"
++                             left: "-100%"
+-                             left: "-100%"
++                             willChange: "transform"
++                             transform: "translateZ(0)"
+-                             transform: "translateZ(0px)"
+-                             will-change: "transform"
+                            }}
+                            ref={function useMotionRef.useCallback}
+                          >
+                        ...
+                    ...
+            ...
+          ...
+
+[00:15:25.472] Browser WARN    Please ensure that the container has a non-static position, like 'relative', 'fixed', or 'absolute' to ensure scroll offset is calculated correctly.
+[00:20:07.935] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:20:08.236] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<SegmentViewNode>} forbidden={undefined} ...>
+      <RedirectBoundary>
+        <RedirectErrorBoundary router={{...}}>
+          <InnerLayoutRouter url="/" tree={[...]} params={{}} cacheNode={{rsc:<Fragment>, ...}} segmentPath={[...]} ...>
+            <SegmentViewNode type="page" pagePath="page.tsx">
+              <SegmentTrieNode>
+              <ClientPageRoot Component={function Home} serverProvidedParams={{...}}>
+                <Home params={Promise} searchParams={Promise}>
+                  <main className="bg-lambo-b...">
+                    <Navbar>
+                    <SpeedLines>
+                      <div className="absolute i...">
+                        <motion.div className="absolute b..." style={{top:"65.32...", ...}} animate={{x:"200%"}} ...>
+                          <div
+                            className="absolute bg-white/10 h-[1px] w-full"
+                            style={{
++                             top: "65.32552873167546%"
+-                             top: "43.085%"
++                             left: "-100%"
+-                             left: "-100%"
++                             willChange: "transform"
++                             transform: "translateZ(0)"
+-                             transform: "translateZ(0px)"
+-                             will-change: "transform"
+                            }}
+                            ref={function useMotionRef.useCallback}
+                          >
+                        <motion.div className="absolute b..." style={{top:"34.73...", ...}} animate={{x:"200%"}} ...>
+                          <div
+                            className="absolute bg-white/10 h-[1px] w-full"
+                            style={{
++                             top: "34.73030227144736%"
+-                             top: "38.4543%"
++                             left: "-100%"
+-                             left: "-100%"
++                             willChange: "transform"
++                             transform: "translateZ(0)"
+-                             transform: "translateZ(0px)"
+-                             will-change: "transform"
+                            }}
+                            ref={function useMotionRef.useCallback}
+                          >
+                        <motion.div className="absolute b..." style={{top:"28.50...", ...}} animate={{x:"200%"}} ...>
+                          <div
+                            className="absolute bg-white/10 h-[1px] w-full"
+                            style={{
++                             top: "28.50995417152977%"
+-                             top: "27.6122%"
++                             left: "-100%"
+-                             left: "-100%"
++                             willChange: "transform"
++                             transform: "translateZ(0)"
+-                             transform: "translateZ(0px)"
+-                             will-change: "transform"
+                            }}
+                            ref={function useMotionRef.useCallback}
+                          >
+                        <motion.div className="absolute b..." style={{top:"10.97...", ...}} animate={{x:"200%"}} ...>
+                          <div
+                            className="absolute bg-white/10 h-[1px] w-full"
+                            style={{
++                             top: "10.97631843067669%"
+-                             top: "37.862%"
++                             left: "-100%"
+-                             left: "-100%"
++                             willChange: "transform"
++                             transform: "translateZ(0)"
+-                             transform: "translateZ(0px)"
+-                             will-change: "transform"
+                            }}
+                            ref={function useMotionRef.useCallback}
+                          >
+                        <motion.div className="absolute b..." style={{top:"29.29...", ...}} animate={{x:"200%"}} ...>
+                          <div
+                            className="absolute bg-white/10 h-[1px] w-full"
+                            style={{
++                             top: "29.29607488037028%"
+-                             top: "55.2754%"
++                             left: "-100%"
+-                             left: "-100%"
++                             willChange: "transform"
++                             transform: "translateZ(0)"
+-                             transform: "translateZ(0px)"
+-                             will-change: "transform"
+                            }}
+                            ref={function useMotionRef.useCallback}
+                          >
+                        <motion.div className="absolute b..." style={{top:"20.47...", ...}} animate={{x:"200%"}} ...>
+                          <div
+                            className="absolute bg-white/10 h-[1px] w-full"
+                            style={{
++                             top: "20.477212735625304%"
+-                             top: "98.6059%"
++                             left: "-100%"
+-                             left: "-100%"
++                             willChange: "transform"
++                             transform: "translateZ(0)"
+-                             transform: "translateZ(0px)"
+-                             will-change: "transform"
+                            }}
+                            ref={function useMotionRef.useCallback}
+                          >
+                        <motion.div className="absolute b..." style={{top:"46.79...", ...}} animate={{x:"200%"}} ...>
+                          <div
+                            className="absolute bg-white/10 h-[1px] w-full"
+                            style={{
++                             top: "46.79403070849365%"
+-                             top: "22.353%"
++                             left: "-100%"
+-                             left: "-100%"
++                             willChange: "transform"
++                             transform: "translateZ(0)"
+-                             transform: "translateZ(0px)"
+-                             will-change: "transform"
+                            }}
+                            ref={function useMotionRef.useCallback}
+                          >
+                        <motion.div className="absolute b..." style={{top:"13.58...", ...}} animate={{x:"200%"}} ...>
+                          <div
+                            className="absolute bg-white/10 h-[1px] w-full"
+                            style={{
++                             top: "13.587932626720523%"
+-                             top: "87.6549%"
++                             left: "-100%"
+-                             left: "-100%"
++                             willChange: "transform"
++                             transform: "translateZ(0)"
+-                             transform: "translateZ(0px)"
+-                             will-change: "transform"
+                            }}
+                            ref={function useMotionRef.useCallback}
+                          >
+                        <motion.div className="absolute b..." style={{top:"58.77...", ...}} animate={{x:"200%"}} ...>
+                          <div
+                            className="absolute bg-white/10 h-[1px] w-full"
+                            style={{
++                             top: "58.77678225782928%"
+-                             top: "11.6138%"
++                             left: "-100%"
+-                             left: "-100%"
++                             willChange: "transform"
++                             transform: "translateZ(0)"
+-                             transform: "translateZ(0px)"
+-                             will-change: "transform"
+                            }}
+                            ref={function useMotionRef.useCallback}
+                          >
+                        <motion.div className="absolute b..." style={{top:"68.98...", ...}} animate={{x:"200%"}} ...>
+                          <div
+                            className="absolute bg-white/10 h-[1px] w-full"
+                            style={{
++                             top: "68.98812830613788%"
+-                             top: "55.0652%"
++                             left: "-100%"
+-                             left: "-100%"
++                             willChange: "transform"
++                             transform: "translateZ(0)"
+-                             transform: "translateZ(0px)"
+-                             will-change: "transform"
+                            }}
+                            ref={function useMotionRef.useCallback}
+                          >
+                        <motion.div className="absolute b..." style={{top:"94.18...", ...}} animate={{x:"200%"}} ...>
+                          <div
+                            className="absolute bg-white/10 h-[1px] w-full"
+                            style={{
++                             top: "94.18453876986489%"
+-                             top: "67.3326%"
++                             left: "-100%"
+-                             left: "-100%"
++                             willChange: "transform"
++                             transform: "translateZ(0)"
+-                             transform: "translateZ(0px)"
+-                             will-change: "transform"
+                            }}
+                            ref={function useMotionRef.useCallback}
+                          >
+                        <motion.div className="absolute b..." style={{top:"21.68...", ...}} animate={{x:"200%"}} ...>
+                          <div
+                            className="absolute bg-white/10 h-[1px] w-full"
+                            style={{
++                             top: "21.681891777749996%"
+-                             top: "78.6958%"
++                             left: "-100%"
+-                             left: "-100%"
++                             willChange: "transform"
++                             transform: "translateZ(0)"
+-                             transform: "translateZ(0px)"
+-                             will-change: "transform"
+                            }}
+                            ref={function useMotionRef.useCallback}
+                          >
+                        <motion.div className="absolute b..." style={{top:"7.190...", ...}} animate={{x:"200%"}} ...>
+                          <div
+                            className="absolute bg-white/10 h-[1px] w-full"
+                            style={{
++                             top: "7.190470465467058%"
+-                             top: "67.2267%"
++                             left: "-100%"
+-                             left: "-100%"
++                             willChange: "transform"
++                             transform: "translateZ(0)"
+-                             transform: "translateZ(0px)"
+-                             will-change: "transform"
+                            }}
+                            ref={function useMotionRef.useCallback}
+                          >
+                        <motion.div className="absolute b..." style={{top:"44.94...", ...}} animate={{x:"200%"}} ...>
+                          <div
+                            className="absolute bg-white/10 h-[1px] w-full"
+                            style={{
++                             top: "44.94958089552051%"
+-                             top: "5.60864%"
++                             left: "-100%"
+-                             left: "-100%"
++                             willChange: "transform"
++                             transform: "translateZ(0)"
+-                             transform: "translateZ(0px)"
+-                             will-change: "transform"
+                            }}
+                            ref={function useMotionRef.useCallback}
+                          >
+                        <motion.div className="absolute b..." style={{top:"1.780...", ...}} animate={{x:"200%"}} ...>
+                          <div
+                            className="absolute bg-white/10 h-[1px] w-full"
+                            style={{
++                             top: "1.780046454963713%"
+-                             top: "50.6266%"
++                             left: "-100%"
+-                             left: "-100%"
++                             willChange: "transform"
++                             transform: "translateZ(0)"
+-                             transform: "translateZ(0px)"
+-                             will-change: "transform"
+                            }}
+                            ref={function useMotionRef.useCallback}
+                          >
+                        <motion.div className="absolute b..." style={{top:"27.33...", ...}} animate={{x:"200%"}} ...>
+                          <div
+                            className="absolute bg-white/10 h-[1px] w-full"
+                            style={{
++                             top: "27.33416176721979%"
+-                             top: "90.9811%"
++                             left: "-100%"
+-                             left: "-100%"
++                             willChange: "transform"
++                             transform: "translateZ(0)"
+-                             transform: "translateZ(0px)"
+-                             will-change: "transform"
+                            }}
+                            ref={function useMotionRef.useCallback}
+                          >
+                        <motion.div className="absolute b..." style={{top:"64.14...", ...}} animate={{x:"200%"}} ...>
+                          <div
+                            className="absolute bg-white/10 h-[1px] w-full"
+                            style={{
++                             top: "64.14128834021407%"
+-                             top: "78.7245%"
++                             left: "-100%"
+-                             left: "-100%"
++                             willChange: "transform"
++                             transform: "translateZ(0)"
+-                             transform: "translateZ(0px)"
+-                             will-change: "transform"
+                            }}
+                            ref={function useMotionRef.useCallback}
+                          >
+                        <motion.div className="absolute b..." style={{top:"41.34...", ...}} animate={{x:"200%"}} ...>
+                          <div
+                            className="absolute bg-white/10 h-[1px] w-full"
+                            style={{
++                             top: "41.341825495728116%"
+-                             top: "96.7742%"
++                             left: "-100%"
+-                             left: "-100%"
++                             willChange: "transform"
++                             transform: "translateZ(0)"
+-                             transform: "translateZ(0px)"
+-                             will-change: "transform"
+                            }}
+                            ref={function useMotionRef.useCallback}
+                          >
+                        <motion.div className="absolute b..." style={{top:"97.39...", ...}} animate={{x:"200%"}} ...>
+                          <div
+                            className="absolute bg-white/10 h-[1px] w-full"
+                            style={{
++                             top: "97.39120754951433%"
+-                             top: "76.5657%"
++                             left: "-100%"
+-                             left: "-100%"
++                             willChange: "transform"
++                             transform: "translateZ(0)"
+-                             transform: "translateZ(0px)"
+-                             will-change: "transform"
+                            }}
+                            ref={function useMotionRef.useCallback}
+                          >
+                        <motion.div className="absolute b..." style={{top:"78.64...", ...}} animate={{x:"200%"}} ...>
+                          <div
+                            className="absolute bg-white/10 h-[1px] w-full"
+                            style={{
++                             top: "78.64647312106041%"
+-                             top: "45.1042%"
++                             left: "-100%"
+-                             left: "-100%"
++                             willChange: "transform"
++                             transform: "translateZ(0)"
+-                             transform: "translateZ(0px)"
+-                             will-change: "transform"
+                            }}
+                            ref={function useMotionRef.useCallback}
+                          >
+                        ...
+                    ...
+            ...
+          ...
+
+[00:20:08.236] Browser WARN    Please ensure that the container has a non-static position, like 'relative', 'fixed', or 'absolute' to ensure scroll offset is calculated correctly.
+[00:32:28.430] Server  LOG     ✓ Compiled in 81ms
+[00:32:44.749] Server  LOG     ✓ Compiled in 47ms
+[00:32:46.758] Server  LOG     ✓ Compiled in 39ms

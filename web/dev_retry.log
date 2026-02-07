@@ -1,0 +1,224 @@
+
+> web@1.0.0 dev
+> next dev
+
+▲ Next.js 16.1.6 (Turbopack)
+- Local:         http://localhost:3000
+- Network:       http://10.74.208.251:3000
+
+✓ Starting...
+✓ Ready in 858ms
+○ Compiling / ...
+⨯ ./app/globals.css:1:2
+Module not found: Can't resolve 'tailwindcss'
+[0m[31m[1m>[22m[39m[90m 1 |[39m [33m@[39m[36mimport[39m [32m"tailwindcss"[39m[33m;[39m
+ [90m   |[39m  [31m[1m^[22m[39m
+ [90m 2 |[39m
+ [90m 3 |[39m [33m@[39mtheme {
+ [90m 4 |[39m   [33m--[39mcolor[33m-[39mpagani[33m-[39mblack[33m:[39m [33m#[39m[35m1[39ma1a1a[33m;[39m[0m
+
+
+
+Import trace:
+  Client Component Browser:
+    ./app/globals.css [Client Component Browser]
+    ./app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ GET / 500 in 5.0s (compile: 4.7s, render: 347ms)
+⨯ ./app/globals.css:1:2
+Module not found: Can't resolve 'tailwindcss'
+[0m[31m[1m>[22m[39m[90m 1 |[39m [33m@[39m[36mimport[39m [32m"tailwindcss"[39m[33m;[39m
+ [90m   |[39m  [31m[1m^[22m[39m
+ [90m 2 |[39m
+ [90m 3 |[39m [33m@[39mtheme {
+ [90m 4 |[39m   [33m--[39mcolor[33m-[39mpagani[33m-[39mblack[33m:[39m [33m#[39m[35m1[39ma1a1a[33m;[39m[0m
+
+
+
+Import trace:
+  Client Component Browser:
+    ./app/globals.css [Client Component Browser]
+    ./app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ GET / 500 in 71ms (compile: 24ms, render: 47ms)
+⚠ Found a change in next.config.js. Restarting the server to apply the changes...
+▲ Next.js 16.1.6 (Turbopack)
+- Local:         http://localhost:3000
+- Network:       http://10.74.208.251:3000
+
+✓ Starting...
+✓ Ready in 1042ms
+⨯ ./app/globals.css:1:2
+Module not found: Can't resolve 'tailwindcss'
+[0m[31m[1m>[22m[39m[90m 1 |[39m [33m@[39m[36mimport[39m [32m"tailwindcss"[39m[33m;[39m
+ [90m   |[39m  [31m[1m^[22m[39m
+ [90m 2 |[39m
+ [90m 3 |[39m [33m@[39mtheme {
+ [90m 4 |[39m   [33m--[39mcolor[33m-[39mpagani[33m-[39mblack[33m:[39m [33m#[39m[35m1[39ma1a1a[33m;[39m[0m
+
+
+
+Import trace:
+  Client Component Browser:
+    ./app/globals.css [Client Component Browser]
+    ./app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ GET / 500 in 643ms (compile: 428ms, render: 215ms)
+⨯ ./app/globals.css:1:2
+Module not found: Can't resolve 'tailwindcss'
+[0m[31m[1m>[22m[39m[90m 1 |[39m [33m@[39m[36mimport[39m [32m"tailwindcss"[39m[33m;[39m
+ [90m   |[39m  [31m[1m^[22m[39m
+ [90m 2 |[39m
+ [90m 3 |[39m [33m@[39mtheme {
+ [90m 4 |[39m   [33m--[39mcolor[33m-[39mpagani[33m-[39mblack[33m:[39m [33m#[39m[35m1[39ma1a1a[33m;[39m[0m
+
+
+
+Import trace:
+  Client Component Browser:
+    ./app/globals.css [Client Component Browser]
+    ./app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ GET / 500 in 43ms (compile: 25ms, render: 18ms)
+Persisting failed: Unable to write SST file 00000262.sst
+
+Caused by:
+    The system cannot find the path specified. (os error 3)
+Persisting failed: Another write batch or compaction is already active (Only a single write operations is allowed at a time)
+Persisting failed: Another write batch or compaction is already active (Only a single write operations is allowed at a time)
+Persisting failed: Another write batch or compaction is already active (Only a single write operations is allowed at a time)
+Persisting failed: Another write batch or compaction is already active (Only a single write operations is allowed at a time)
+Persisting failed: Another write batch or compaction is already active (Only a single write operations is allowed at a time)
+Persisting failed: Another write batch or compaction is already active (Only a single write operations is allowed at a time)
+Persisting failed: Another write batch or compaction is already active (Only a single write operations is allowed at a time)
+Persisting failed: Another write batch or compaction is already active (Only a single write operations is allowed at a time)
+Persisting failed: Another write batch or compaction is already active (Only a single write operations is allowed at a time)
+Persisting failed: Another write batch or compaction is already active (Only a single write operations is allowed at a time)
+Persisting failed: Another write batch or compaction is already active (Only a single write operations is allowed at a time)
+Persisting failed: Another write batch or compaction is already active (Only a single write operations is allowed at a time)
+Persisting failed: Another write batch or compaction is already active (Only a single write operations is allowed at a time)
+Persisting failed: Another write batch or compaction is already active (Only a single write operations is allowed at a time)
+⨯ Error: ENOENT: no such file or directory, open 'D:\Lambo\web\.next\dev\server\app\page\build-manifest.json'
+    at ignore-listed frames {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'D:\\Lambo\\web\\.next\\dev\\server\\app\\page\\build-manifest.json'
+}
+Error: ENOENT: no such file or directory, open 'D:\Lambo\web\.next\dev\server\app\page\build-manifest.json'
+    at ignore-listed frames {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'D:\\Lambo\\web\\.next\\dev\\server\\app\\page\\build-manifest.json'
+}
+Error: ENOENT: no such file or directory, open 'D:\Lambo\web\.next\dev\server\pages\_app\build-manifest.json'
+    at ignore-listed frames {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'D:\\Lambo\\web\\.next\\dev\\server\\pages\\_app\\build-manifest.json'
+}
+⨯ Error: ENOENT: no such file or directory, open 'D:\Lambo\web\.next\dev\server\app\page\build-manifest.json'
+    at ignore-listed frames {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'D:\\Lambo\\web\\.next\\dev\\server\\app\\page\\build-manifest.json'
+}
+Error: ENOENT: no such file or directory, open 'D:\Lambo\web\.next\dev\server\app\page\build-manifest.json'
+    at ignore-listed frames {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'D:\\Lambo\\web\\.next\\dev\\server\\app\\page\\build-manifest.json'
+}
+Error: ENOENT: no such file or directory, open 'D:\Lambo\web\.next\dev\server\pages\_app\build-manifest.json'
+    at ignore-listed frames {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'D:\\Lambo\\web\\.next\\dev\\server\\pages\\_app\\build-manifest.json'
+}
+Persisting failed: Another write batch or compaction is already active (Only a single write operations is allowed at a time)
+⨯ Error: ENOENT: no such file or directory, open 'D:\Lambo\web\.next\dev\server\app\page\build-manifest.json'
+    at ignore-listed frames {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'D:\\Lambo\\web\\.next\\dev\\server\\app\\page\\build-manifest.json'
+}
+Error: ENOENT: no such file or directory, open 'D:\Lambo\web\.next\dev\server\app\page\build-manifest.json'
+    at ignore-listed frames {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'D:\\Lambo\\web\\.next\\dev\\server\\app\\page\\build-manifest.json'
+}
+Error: ENOENT: no such file or directory, open 'D:\Lambo\web\.next\dev\server\pages\_app\build-manifest.json'
+    at ignore-listed frames {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'D:\\Lambo\\web\\.next\\dev\\server\\pages\\_app\\build-manifest.json'
+}
+⨯ Error: ENOENT: no such file or directory, open 'D:\Lambo\web\.next\dev\server\app\page\build-manifest.json'
+    at ignore-listed frames {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'D:\\Lambo\\web\\.next\\dev\\server\\app\\page\\build-manifest.json'
+}
+Error: ENOENT: no such file or directory, open 'D:\Lambo\web\.next\dev\server\app\page\build-manifest.json'
+    at ignore-listed frames {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'D:\\Lambo\\web\\.next\\dev\\server\\app\\page\\build-manifest.json'
+}
+Error: ENOENT: no such file or directory, open 'D:\Lambo\web\.next\dev\server\pages\_app\build-manifest.json'
+    at ignore-listed frames {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'D:\\Lambo\\web\\.next\\dev\\server\\pages\\_app\\build-manifest.json'
+}
+⨯ Error: ENOENT: no such file or directory, open 'D:\Lambo\web\.next\dev\server\app\page\build-manifest.json'
+    at ignore-listed frames {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'D:\\Lambo\\web\\.next\\dev\\server\\app\\page\\build-manifest.json'
+}
+Error: ENOENT: no such file or directory, open 'D:\Lambo\web\.next\dev\server\app\page\build-manifest.json'
+    at ignore-listed frames {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'D:\\Lambo\\web\\.next\\dev\\server\\app\\page\\build-manifest.json'
+}
+Error: ENOENT: no such file or directory, open 'D:\Lambo\web\.next\dev\server\pages\_app\build-manifest.json'
+    at ignore-listed frames {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'D:\\Lambo\\web\\.next\\dev\\server\\pages\\_app\\build-manifest.json'
+}
+Persisting failed: Another write batch or compaction is already active (Only a single write operations is allowed at a time)
+Persisting failed: Another write batch or compaction is already active (Only a single write operations is allowed at a time)
+Persisting failed: Another write batch or compaction is already active (Only a single write operations is allowed at a time)
+Persisting failed: Another write batch or compaction is already active (Only a single write operations is allowed at a time)
+Persisting failed: Another write batch or compaction is already active (Only a single write operations is allowed at a time)
+Persisting failed: Another write batch or compaction is already active (Only a single write operations is allowed at a time)
